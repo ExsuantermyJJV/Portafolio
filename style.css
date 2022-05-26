@@ -46,7 +46,7 @@ p {
     padding: 0 2.4rem;
 }
 
-/*Header*/
+
 header {
     width: 100%;
     position: absolute;
@@ -145,17 +145,14 @@ header {
 }
 
 .nav-link:hover {
-    color: #3bcc3b;
+    color: #0af00a;
 }
-
-/*Hero*/
-
 
 
 .hero {
     width: 100%;
     height: 70vh;
-    background: url("./img/foodd.webp") center no-repeat;
+    background: url("./img/fondoo.webp") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -179,22 +176,13 @@ header {
 
 }
 
-.texto3{
-    font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
-    color: #2cf104;
-    font-weight: 600;
-    line-height: .4;
-
-}
-
 .fil {
     text-transform: uppercase;
     font-size: 3rem;
 }
 
 .head {
-    color: #fff;
+    color: rgb(241, 235, 235);
     font-size: 3.7rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -209,7 +197,7 @@ header {
 }
 
 .he-des h5 {
-    color: #fff;
+    color: rgb(230, 222, 222);
     font-size: 1.4rem;
     font-weight: 100;
     text-transform: uppercase;
@@ -229,12 +217,12 @@ header {
     font-size: 1.1rem;
     background-color: #0a0a0a;
     padding: 1.5rem 3rem;
-    color: #fff;
+    color: rgb(245, 240, 240);
     border-radius: .4rem;
 }
 .cta-btn:hover,
 .cta-btn:focus {
-    color: #fff;
+    color: rgb(245, 239, 239);
     background-color: #3bcc75;
 }
 
@@ -243,6 +231,8 @@ header {
     text-align: center;
     margin-top: 3.9rem;
 }
+
+
 
 .dis-sto .global {
     margin-top: 6.9rem;
@@ -254,10 +244,25 @@ header {
 }
 
 .hea-dark {
-    color: #252525;
+    color: #0c0c0c;
     letter-spacing: .7rem;
     margin-right: -.7rem;
 }
+
+.hea-dark1 {
+    color: #080808;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+.hea-dark2 {
+    color: #080808;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+
+
 
 .global .h2-sub {
     letter-spacing: -1px;
@@ -278,22 +283,6 @@ header {
 }
 
 
-/*menu*/
-
-.taste {
-    background: url("./img/prueba1.jpg") center no-repeat;
-    background-size: cover;
-}
-
-.bt {
-    min-height: 65vh;
-    display: flex;
-    align-items: center;
-}
-
-
-/*platillos*/
-
 .image-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -306,12 +295,11 @@ header {
 }
 
 .pb {
-    background: url("./img/foto1.jpg") center no-repeat;
+    background: url("./img/111.webp") center no-repeat;
     background-size: cover;
 }
 
 
-/*footer*/
 footer {
     padding: 7.9rem 0;
     background-color: #121212;
@@ -330,18 +318,6 @@ footer {
     font-weight: 100;
     letter-spacing: 3px;
     margin-bottom: 3rem;
-}
-
-.footer-content .circle{
-    margin: 2.4rem 0;
-}
-
-.footer-content-about {
-    margin-bottom: 5.4rem;
-}
-
-.footer-content-about p {
-    line-height: 2;
 }
 
 .social-icons {
@@ -492,4 +468,5 @@ footer {
    .news-btn {
        margin-left: 7.5rem;
    }
-    
+
+   }
