@@ -43,6 +43,14 @@ p {
     padding: 0 2.4rem;
 }
 
+.container2{
+    width: 100%;
+    max-width: 200rem;
+    margin:  0 auto;
+    padding: 0 2.4rem;
+    background-color: #050505;
+}
+
 
 header {
     width: 100%;
