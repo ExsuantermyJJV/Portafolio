@@ -326,8 +326,8 @@ header {
 
 footer {
     padding: 7.9rem 0;
-    background-color: #8d8a8a;
-    color: rgb(0, 0, 0);
+       background-color: #000000;
+    color: rgb(253, 251, 251);
     text-align: center;
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
