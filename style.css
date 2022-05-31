@@ -49,6 +49,7 @@ p {
     margin:  0 auto;
     padding: 0 2.4rem;
     background-color: #050505;
+    position: fixed;
 }
 
 
@@ -70,7 +71,7 @@ header {
 .menu-toggle {
     color: #fff;
     font-size: 2.2rem;
-    position: fixed;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 2.5rem;
@@ -84,7 +85,7 @@ header {
 
 .nav-list {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 80%;
