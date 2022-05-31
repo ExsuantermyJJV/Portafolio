@@ -247,7 +247,7 @@ header {
 }
 .cta-btn:hover,
 .cta-btn:focus {
-    color: white;
+    color: black;
     background-color: #0af00a;
 }
 
