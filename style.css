@@ -220,17 +220,6 @@ header {
     margin: 0 1.6rem;
 }
 
-.he-des h5 {
-     background-color: #000;
-    color: rgb(250, 250, 250);
-    font-size: 1.7rem;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: 1.2rem;
-    letter-spacing: 3px;
-    margin-right: -3px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 .btn {
     display: inline-block;
@@ -371,7 +360,7 @@ footer {
     position: relative;
     display: flex;
     justify-content: center;
-
+color: white;
 }
 
 .news-input {
@@ -379,6 +368,7 @@ footer {
     max-width: 25rem;
     padding: 1rem;
     border-radius: .4rem;
+    color: white;
 }
 .news-btn {
     background: transparent;
