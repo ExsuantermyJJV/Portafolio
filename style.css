@@ -360,7 +360,6 @@ footer {
     position: relative;
     display: flex;
     justify-content: center;
-color: white;
 }
 
 .news-input {
@@ -368,7 +367,6 @@ color: white;
     max-width: 25rem;
     padding: 1rem;
     border-radius: .4rem;
-    color: white;
 }
 .news-btn {
     background: transparent;
